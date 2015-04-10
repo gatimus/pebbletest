@@ -10,6 +10,17 @@ static void update_time() {
   // Get a tm structure
   time_t temp = time(NULL); 
   struct tm *tick_time = localtime(&temp);
+  
+  struct Books{
+    char  title[50];
+    char  author[50];
+    char  subject[100];
+    int   book_id;
+} Book1;
+  
+  //struct Books Book1; 
+  Book1.book_id = 6495407;
+  
 
   // Create a long-lived buffer
   static char buffer[] = "00:00:00";
