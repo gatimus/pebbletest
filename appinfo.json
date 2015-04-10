@@ -1,0 +1,35 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "william.g.lohan@gmail.com",
+    "longName": "test1",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/SourceSansPro-Regular.ttf",
+                "name": "FONT_SOURCESANSPRO_REGULAR_14",
+                "type": "font"
+            },
+            {
+                "file": "fonts/SourceSansPro-Regular.ttf",
+                "name": "FONT_SOURCESANSPRO_REGULAR_28",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "test1",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "508dd359-ca4a-4a91-a8e8-a2a9e0191fbb",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
